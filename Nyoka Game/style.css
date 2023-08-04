@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    border: 2px solid #444;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+}
+
+.snake-cell, .food-cell {
+    width: 20px;
+    height: 20px;
+}
+
+.snake-cell {
+    background-color: #00cc66;
+}
+
+.food-cell {
+    background-color: #cc0000;
+}
